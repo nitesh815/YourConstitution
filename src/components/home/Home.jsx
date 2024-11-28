@@ -1,0 +1,23 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import AboutCard from "../about/AboutCard"
+import Hblog from "./Hblog"
+import HAbout from "./HAbout"
+import Hero from "./hero/Hero"
+import Testimonal from "./testimonal/Testimonal"
+
+
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <AboutCard />
+      <HAbout />
+      <Testimonal />
+      <Hblog />
+
+    </>
+  )
+}
+
+export default Home

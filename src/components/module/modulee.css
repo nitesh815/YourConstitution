@@ -1,0 +1,66 @@
+.modulee .items {
+    transition: 0.5s;
+  }
+  .modulee .img {
+    position: relative;
+  }
+  .modulee img {
+    width: 400px;
+    height: 400px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .flex{
+    display:flex;
+  }
+  .overlay i {
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+    transition: 0.5s;
+  }
+  .modulee .details {
+    padding: 30px;
+    text-align: center;
+  }
+  .modulee .details h2 {
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  .modulee .details p {
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  .container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .modulee .items:hover {
+    background-color: #208de7;
+    color: #fff;
+    cursor: pointer;
+  }
+  .modulee .items:hover p {
+    color: #fff;
+  }
+  .modulee .items:hover .overlay {
+    opacity: 1;
+  }
+  .modulee .items:hover .overlay i:hover {
+    background-color: #208de7;
+    color: #fff;
+  }
+  

@@ -1,0 +1,24 @@
+.scrol{
+    flex: 1;
+    /* Takes equal space */
+    max-height: 100vh;
+    /* Set a fixed height */
+    overflow-y: scroll;
+    /* Enable vertical scroll */
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Optional: Style scrollbar for Webkit browsers */
+.scrol::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrol::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.scrol::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
